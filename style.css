@@ -1,24 +1,84 @@
 body{
 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px;
+    
 }
 
 .header{
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+
 }
 
 .main{
-
+    
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 540px;
+    gap : 200px;
 }
 
 .sidebar{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+    
 }
 
 .sketchbox{
 
+    display: flex;
+    flex: 0 0 auto;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+}
+
+.box{
+    
+    display: flex;
+    
+    width:  20px;
+    height: 20px;
 }
 
 .footer{
 
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: center;
+    text-align: center;
+
+}
+.switch{
+
+    background-color: black;
+
+}
+
+.neu{
+
+    background-color: rgb(121, 121, 183);
+    border: 0px;
     
+    border-radius: 15px;
+
 }
