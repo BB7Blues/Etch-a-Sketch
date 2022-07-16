@@ -53,6 +53,10 @@ function makeBox(sidelenght){
     //console.log(boxremove);
     // grid größe / 2 / 10
     sidelenght = prompt("Wie lang?");
+    while (sidelenght > 100){
+        sidelenght = prompt("Maximal 100 pixel");
+    }
+    //if (sidelenght > 100) sidelenght = prompt("Maximal 100 Pixel pro Seite");
     let boxgroesse = 400 / sidelenght;
     boxremove.forEach(box => grid.removeChild(box));
     i = 0;
